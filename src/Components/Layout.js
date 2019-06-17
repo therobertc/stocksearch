@@ -8,7 +8,7 @@ const Layout = props => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#0E1533",
     paddingHorizontal: 20,
     color: "#fff"
   }

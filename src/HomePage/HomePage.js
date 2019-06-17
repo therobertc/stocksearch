@@ -28,7 +28,7 @@ export default class HomePage extends Component {
 
   render() {
     return (
-      <Layout>
+      <Layout style={styles.background} >
         <Text style={styles.title}>Stock Search</Text>
         <SearchBar
           placeholder="Search"
@@ -53,10 +53,15 @@ export default class HomePage extends Component {
 const styles = StyleSheet.create({
   listContainer: {
     marginTop: 10,
-    backgroundColor: "#1e2124",
+    backgroundColor: "#1E396D",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
     paddingVertical: 10
+  },
+  background: {
+    backgroundColor: 'white',
+    
+   
   },
   title: {
     color: "#fff",

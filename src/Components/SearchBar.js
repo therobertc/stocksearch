@@ -16,7 +16,7 @@ export default function SearchBar(props) {
 
 const styles = StyleSheet.create({
   searchBar: {
-    backgroundColor: "#1e2124",
+    backgroundColor: "#1E396D",
     borderRadius: 25,
     color: "#fff",
     height: 38,
