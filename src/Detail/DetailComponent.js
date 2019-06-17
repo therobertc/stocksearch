@@ -9,7 +9,7 @@ class DetailComponent extends Component {
   static navigationOptions = {
     title: "Detail",
     headerStyle: {
-      backgroundColor: "#000",
+      backgroundColor: "#1E396D",
       color: "#fff"
     },
     headerTintColor: "#fff",

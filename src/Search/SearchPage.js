@@ -14,7 +14,7 @@ export default class SearchPage extends Component {
   static navigationOptions = {
     title: "Search",
     headerStyle: {
-      backgroundColor: "#000",
+      backgroundColor: "#1E396D",
       color: "#fff"
     },
     headerTintColor: "#fff",
@@ -52,7 +52,7 @@ export default class SearchPage extends Component {
           autoFocus
           customs={{ flex: 1 }}
           onChangeText={text => this.handleSearch(text)}
-          placeholder="Type something"
+          placeholder="Find Stocks..."
         />
         <TouchableOpacity
           style={styles.btn}
